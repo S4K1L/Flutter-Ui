@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 //images
-//const String logo = 'assets/images/logo.png';
+const String logo = 'assets/images/logo.png';
 
 //default Value
 const kDefaultPadding = 20.0;

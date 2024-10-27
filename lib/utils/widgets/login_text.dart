@@ -8,11 +8,11 @@ class LoginText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.only(top: kDefaultPadding*4,bottom: kDefaultPadding*3),
+    return Padding(
+      padding: const EdgeInsets.only(top: kDefaultPadding*4,bottom: kDefaultPadding*3),
       child: Column(
         children: [
-          Text(
+          const Text(
             'Welcome Back',
             textAlign: TextAlign.center,
             style: TextStyle(
@@ -21,8 +21,8 @@ class LoginText extends StatelessWidget {
               color: Colors.black,
             ),
           ),
-          SizedBox(height: 8),
-          Text(
+          const SizedBox(height: 8),
+          const Text(
             'Enter your credential to login',
             textAlign: TextAlign.center,
             style: TextStyle(
@@ -31,6 +31,7 @@ class LoginText extends StatelessWidget {
                 fontWeight: FontWeight.w500
             ),
           ),
+          Image.asset(logo)
         ],
       ),
     );

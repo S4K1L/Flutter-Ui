@@ -15,12 +15,13 @@ class CustomTextButton extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(firstText),
+          Text(firstText,style: const TextStyle(fontSize: 16),),
           Text(
             secondText,
             style: const TextStyle(
               color: Colors.purple,
               fontWeight: FontWeight.bold,
+              fontSize: 16
             ),
           ),
         ],
